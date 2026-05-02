@@ -100,13 +100,13 @@ export const projects: Project[] = [
   },
   {
     slug: "govixa",
-    title: "Govixa - Exam Preparation Platform",
+    title: "Govixa India - Exam Preparation Platform",
     shortTitle: "Govixa",
     description:
       "AI-powered exam preparation platform with a real-time mock test engine, large question bank, and recommendation workflows.",
     domain: "EdTech",
     year: "2025-26",
-    stack: ["React.js", "Django REST Framework", "Redis", "AWS"],
+    stack: ["React.js", "Django REST Framework", "PostgreSQL", "Firebase", "Redis", "AWS"],
     features: [
       "10,000+ concurrent users",
       "AI-powered recommendations",
@@ -144,7 +144,7 @@ export const projects: Project[] = [
       "FinTech SaaS platform with AI-based financial recommendations, scoring, analytics, and user-centric portfolio insights.",
     domain: "FinTech",
     year: "2025",
-    stack: ["React.js", "Python", "Django REST Framework", "PostgreSQL", "OpenAI API"],
+    stack: ["React.js", "Python", "Django REST Framework", "PostgreSQL", "OpenAI API", "AWS"],
     features: [
       "AI-based financial recommendations",
       "Financial health scoring",
@@ -161,7 +161,7 @@ export const projects: Project[] = [
       "Family-focused learning platform with gamified habit building, parent-child dashboards, behavioral analytics, and AI progress insights.",
     domain: "EdTech",
     year: "2024-2025",
-    stack: ["Angular", "Django", "Django REST Framework", "PostgreSQL", "AI Insights"],
+    stack: ["Angular", "Django", "Django REST Framework", "PostgreSQL", "AI Insights", "AWS"],
     features: [
       "Gamified habit system",
       "Parent-child role dashboards",
@@ -226,7 +226,7 @@ export const skillGroups = [
   {
     title: "Backend",
     icon: Server,
-    skills: ["Python", "Django", "Django REST Framework", "Node.js"],
+    skills: ["Python", "Django", "Django REST Framework", "Flask", "FastAPI", "Node.js"],
   },
   {
     title: "Database",
