@@ -8,8 +8,8 @@ export default function About() {
     <Section
       id="about"
       eyebrow="About"
-      title="Full-stack engineering for products that need to scale."
-      description="With 5 years across SaaS, AI, EdTech, and FinTech, Naveen builds systems that are fast, maintainable, and ready for real customer traffic."
+      title="Building production systems across SaaS, EdTech, and FinTech."
+      description="Full Stack Developer with 5 years of experience building and maintaining production-grade applications. Focused on scalable APIs, database optimization, and systems that handle real users and traffic at scale."
     >
       <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
         {capabilityCards.map((card) => {

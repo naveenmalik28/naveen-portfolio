@@ -24,7 +24,7 @@ export default function Hero() {
         <p className="mt-4 text-xl font-medium text-mint sm:text-2xl">{profile.title}</p>
         <p className="mt-5 max-w-2xl text-lg leading-8 text-steel sm:text-xl">{profile.tagline}</p>
         <p className="mt-5 max-w-2xl text-base leading-8 text-steel">
-          I design and ship API-first SaaS products, AI features, exam platforms, and dashboards with the architecture discipline needed for real users and production growth.
+          I build production-ready systems including exam platforms, CMS tools, and AI-integrated products — focusing on performance, scalability, and delivering real user impact.
         </p>
 
         <div className="mt-8 flex flex-col gap-3 sm:flex-row">

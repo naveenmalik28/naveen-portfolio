@@ -54,7 +54,7 @@ export const profile = {
   title: "Senior Full Stack Developer",
   location: "Gurugram, India",
   experience: "5 Years",
-  tagline: "Building scalable SaaS & AI-powered platforms",
+  tagline: "Building scalable web applications and API-driven systems",
   email: "naveenmalik0928@gmail.com",
   linkedin: "https://www.linkedin.com/in/naveenmalikofficial/",
   github: "https://github.com/naveenmalik28",
@@ -66,35 +66,37 @@ export const projects: Project[] = [
     title: "Magnivel - SaaS Platform",
     shortTitle: "Magnivel",
     description:
-      "Full-stack SaaS application built with React, Django REST Framework, and PostgreSQL for secure, scalable product workflows.",
+      "Developed a full-stack SaaS platform with React and Django REST Framework, focusing on secure APIs, scalable architecture, and efficient data workflows.",
     domain: "SaaS",
     year: "2026",
     stack: ["React (Vite)", "Tailwind CSS", "Django", "Django REST Framework", "PostgreSQL"],
     features: [
-      "REST API architecture",
-      "Secure authentication",
-      "Scalable database design",
-      "Optimized API performance",
+      "Secure REST API with authentication",
+      "Role-based access control",
+      "Optimized database queries",
+      "Production-ready backend architecture",
     ],
-    metrics: ["Production-ready", "API-first", "PostgreSQL core"],    website: "https://magnivel.com",    caseStudy: {
+    metrics: ["Production-ready", "API-first", "PostgreSQL core"],
+    website: "https://magnivel.com",
+    caseStudy: {
       problem:
-        "Growing SaaS teams often outgrow stitched-together dashboards, slow APIs, and rigid data models before the product is ready to scale. Magnivel needed a clean foundation that could support authenticated workflows, predictable API contracts, and long-term feature expansion.",
+        "Building SaaS platforms requires reliable backend infrastructure, fast APIs, and a scalable database. Magnivel needed a clean foundation with secure authentication and predictable API behavior for product growth.",
       solution:
-        "Magnivel was built as an API-first SaaS system with a React Vite frontend, Django REST Framework backend, and PostgreSQL data layer. The platform emphasizes secure access, reusable service boundaries, and fast product surfaces for operators and customers.",
+        "Built Magnivel with React (Vite) frontend and Django REST Framework backend, backed by PostgreSQL. Focused on secure API design, optimized queries, and clear separation of concerns for maintainability.",
       architecture: {
-        frontend: "React (Vite) with Tailwind CSS for a fast, modular user interface.",
-        backend: "Django REST Framework powering authenticated REST APIs and business workflows.",
-        database: "PostgreSQL schema designed for normalized data, indexed reads, and future tenant growth.",
+        frontend: "React (Vite) with Tailwind CSS for responsive, fast user interface.",
+        backend: "Django REST Framework with authentication, role-based access, and optimized endpoints.",
+        database: "PostgreSQL with optimized queries, indexes, and normalized schema for scalability.",
       },
       challenges: [
-        "API performance optimization across high-traffic endpoints",
-        "Database query optimization for read-heavy product screens",
-        "Frontend performance tuning for fast navigation and low interaction latency",
+        "Optimizing API performance for frequent user operations",
+        "Designing efficient database queries for complex data workflows",
+        "Balancing code maintainability with performance needs",
       ],
       outcome: [
-        "Improved API response patterns and frontend responsiveness",
-        "Scalable architecture ready for production growth",
-        "Maintainable full-stack system with clear product boundaries",
+        "Production-ready SaaS platform with reliable API architecture",
+        "Optimized database performance handling real user traffic",
+        "Maintainable codebase ready for feature expansion",
       ],
     },
   },
@@ -103,17 +105,17 @@ export const projects: Project[] = [
     title: "Govixa India - Exam Preparation Platform",
     shortTitle: "Govixa",
     description:
-      "AI-powered exam preparation platform with a real-time mock test engine, large question bank, and recommendation workflows.",
+      "Built a scalable exam platform handling 10,000+ concurrent users with real-time mock tests, large question banks, and AI recommendations. Optimized performance using Redis caching and Django REST APIs.",
     domain: "EdTech",
     year: "2025-26",
     stack: ["React.js", "Django REST Framework", "PostgreSQL", "Firebase", "Redis", "AWS"],
     features: [
-      "10,000+ concurrent users",
-      "AI-powered recommendations",
-      "Real-time mock tests",
-      "Large question bank system",
+      "Handles 10,000+ concurrent users",
+      "Real-time mock test engine",
+      "AI-powered learning recommendations",
+      "Optimized for high-traffic performance",
     ],
-    metrics: ["10,000+ users", "Real-time tests", "AI recommendations"],    website: "https://govixaindia.com",    caseStudy: {
+    metrics: ["10,000+ users", "Real-time tests", "Redis caching"],    website: "https://govixaindia.com",    caseStudy: {
       problem:
         "Exam preparation platforms need to serve thousands of learners at the same time while keeping tests fair, fast, and personalized. Govixa needed a system that could handle high concurrency, AI-assisted guidance, and a large question bank without slowing down during peak mock test windows.",
       solution:
@@ -141,35 +143,35 @@ export const projects: Project[] = [
     title: "MyWealthScore - FinTech SaaS",
     shortTitle: "MyWealthScore",
     description:
-      "FinTech SaaS platform with AI-based financial recommendations, scoring, analytics, and user-centric portfolio insights.",
+      "Developed a FinTech SaaS platform with AI-based financial scoring and recommendations. Built secure APIs and analytics dashboards for handling sensitive financial data.",
     domain: "FinTech",
     year: "2025",
     stack: ["React.js", "Python", "Django REST Framework", "PostgreSQL", "OpenAI API", "AWS"],
     features: [
-      "AI-based financial recommendations",
-      "Financial health scoring",
-      "Analytics dashboards",
-      "Secure user data workflows",
+      "AI-powered financial scoring",
+      "Secure API design",
+      "Analytics and insights dashboards",
+      "Production-grade data handling",
     ],
-    metrics: ["AI insights", "FinTech SaaS", "Analytics-first"],
+    metrics: ["AI integrations", "FinTech SaaS", "Secure systems"],
   },
   {
     slug: "supreme-child-learning-platform",
     title: "Supreme Child Learning Platform",
     shortTitle: "Supreme Child",
     description:
-      "Family-focused learning platform with gamified habit building, parent-child dashboards, behavioral analytics, and AI progress insights.",
+      "Built a learning platform with gamified features, role-based dashboards for parents and children, behavioral tracking, and AI-based progress insights. Implemented secure family data isolation.",
     domain: "EdTech",
     year: "2024-2025",
     stack: ["Angular", "Django", "Django REST Framework", "PostgreSQL", "AI Insights", "AWS"],
     features: [
-      "Gamified habit system",
-      "Parent-child role dashboards",
-      "Behavioral analytics",
-      "AI progress insights",
+      "Gamified habit tracking system",
+      "Separate parent and child dashboards",
+      "Behavioral analytics and tracking",
+      "AI-powered progress insights",
       "Secure family data isolation",
     ],
-    metrics: ["Role-based dashboards", "Family-safe data", "AI progress tracking"],
+    metrics: ["Role-based access", "Secure data isolation", "AI analytics"],
     caseStudy: {
       problem:
         "Parents need a clear way to understand a child's learning habits without turning progress tracking into a manual spreadsheet. The platform needed to support child engagement, parent visibility, behavioral patterns, and strict separation between family accounts.",
@@ -199,7 +201,12 @@ export const experience: Experience[] = [
     company: "Actinium Softwares",
     period: "Nov 2024 - Present",
     role: "Senior Full Stack Developer",
-    points: ["Built SaaS platforms", "Delivered AI integrations", "Led performance optimization"],
+    points: [
+      "Built and architected SaaS platforms using Django and React",
+      "Integrated OpenAI and AI features into production systems",
+      "Optimized database queries and improved API response times",
+      "Led performance improvements and system scalability initiatives",
+    ],
   },
   {
     company: "Pulsus Healthtech",
@@ -253,12 +260,12 @@ export const highlights = [
 ];
 
 export const capabilityCards = [
-  { title: "API Systems", icon: LockKeyhole, body: "Secure REST APIs, auth flows, service boundaries, and maintainable data contracts." },
-  { title: "AI Products", icon: Bot, body: "Recommendation flows, AI-assisted workflows, and pragmatic integrations using OpenAI and LangChain." },
-  { title: "Scale Thinking", icon: TrendingUp, body: "Indexes, caching, background work, and frontend performance tuned for product growth." },
-  { title: "Learning Platforms", icon: GraduationCap, body: "Mock test engines, large question banks, analytics, and high-concurrency exam flows." },
-  { title: "Fast Interfaces", icon: Timer, body: "Responsive product surfaces with smooth transitions and quick paths to key actions." },
-  { title: "Product Polish", icon: Sparkles, body: "Clean UX, measurable outcomes, and features shaped around real user workflows." },
+  { title: "Backend & API Development", icon: LockKeyhole, body: "Designed secure REST APIs with authentication, role-based access control, and scalable backend architecture." },
+  { title: "AI Integrations", icon: Bot, body: "Integrated OpenAI-based workflows for recommendations and automation in production systems." },
+  { title: "Performance Optimization", icon: TrendingUp, body: "Improved query performance, implemented Redis caching, reduced API latency in production systems." },
+  { title: "High-Scale Systems", icon: GraduationCap, body: "Built systems handling large datasets, concurrent users, and real-time workflows like exam platforms." },
+  { title: "Frontend Development", icon: Timer, body: "Built responsive interfaces with smooth performance using React, Angular, and modern tooling." },
+  { title: "Database Design", icon: Sparkles, body: "Optimized schema design, implemented efficient indexing, and structured workflows for production systems." },
 ];
 
 export const blogPosts = [

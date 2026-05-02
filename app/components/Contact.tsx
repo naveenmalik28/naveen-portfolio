@@ -16,8 +16,8 @@ export default function Contact() {
     <Section
       id="contact"
       eyebrow="Contact"
-      title="Let us build a product surface that can carry real traffic."
-      description="Available for senior full-stack roles, SaaS builds, AI integrations, backend architecture, and performance-heavy product work."
+      title="Let's discuss scalable systems and production challenges."
+      description="Open to Full Stack / Backend / SaaS product roles. Interested in building scalable systems, API-driven platforms, and performance-focused applications."
       className="pb-10"
     >
       <div className="grid gap-5 lg:grid-cols-[0.9fr_1.1fr]">
