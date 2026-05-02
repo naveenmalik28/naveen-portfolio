@@ -51,7 +51,7 @@ export type Experience = {
 
 export const profile = {
   name: "Naveen Malik",
-  title: "Senior Full Stack Developer",
+  title: "Full Stack Developer",
   location: "Gurugram, India",
   experience: "5 Years",
   tagline: "Building scalable web applications and API-driven systems",
