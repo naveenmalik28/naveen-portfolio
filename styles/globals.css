@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --font-inter: "Inter";
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #08090d 0%, #0d0f13 48%, #08090d 100%);
+  color: #f4efe5;
+  font-family: var(--font-inter), Inter, system-ui, sans-serif;
+  letter-spacing: 0;
+}
+
+::selection {
+  background: rgba(142, 241, 201, 0.28);
+  color: #fff;
+}
+
+.container-pad {
+  @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+
+.eyebrow {
+  @apply text-xs font-semibold uppercase text-mint;
+}
+
+.panel {
+  @apply border border-white/10 bg-white/[0.035] shadow-premium backdrop-blur;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
