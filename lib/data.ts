@@ -255,7 +255,7 @@ export const skillGroups = [
 export const highlights = [
   { label: "Years building products", value: "5", icon: BriefcaseBusiness },
   { label: "Users handled", value: "10,000+", icon: Users },
-  { label: "Core domains", value: "SaaS / AI / EdTech / FinTech", icon: Layers3 },
+  { label: "Core domains", value: "SaaS / AI / Publishing / EdTech / FinTech", icon: Layers3 },
   { label: "Engineering focus", value: "Performance & scale", icon: Gauge },
 ];
 
