@@ -146,7 +146,7 @@ export const projects: Project[] = [
       "Developed a FinTech SaaS platform with AI-based financial scoring and recommendations. Built secure APIs and analytics dashboards for handling sensitive financial data.",
     domain: "FinTech",
     year: "2025",
-    stack: ["React.js", "Python", "Django REST Framework", "PostgreSQL", "OpenAI API", "AWS"],
+    stack: ["React.js", "Python", "FastAPI", "PostgreSQL", "OpenAI API", "AWS"],
     features: [
       "AI-powered financial scoring",
       "Secure API design",
